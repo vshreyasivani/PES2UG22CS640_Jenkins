@@ -14,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './PES2UG22CS640-1' // Runs the compiled executable
+                    sh './non_existent_file'  // Runs the compiled executable
                     echo 'Test Stage Successful'
                 }
             }
