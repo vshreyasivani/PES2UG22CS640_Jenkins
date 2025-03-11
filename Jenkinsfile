@@ -14,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './hello_exec'  // Runs the compiled executable
+                    sh './PES2UG22CS640-1' // Runs the compiled executable
                     echo 'Test Stage Successful'
                 }
             }
@@ -22,7 +22,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                echo 'Deploying the application... (placeholder)'
+                echo 'Deploying the application...'
                 echo 'Deployment Successful'
             }
         }
